@@ -10,17 +10,17 @@ pipeline {
         }
         stage('install') {
             steps {
-                sh "install"
+                echo "install"
             }
         }
         stage('test') {
             steps {
-                sh"echo test"
+                echo "test"
             }
         }
         stage('package') {
             steps {
-                sh "echo packages"
+                echp "packages"
             }
         }
     }
